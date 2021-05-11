@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+    url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+    url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.conteiner {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.article__sect {
+    margin-right: 40px;
+}
+
+.article__title {
+    width: 794px;
+    font-family: Rubik, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+    margin-top: 17px;
+}
+
+.time-data__article {
+    width: 512px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    display: flex;
+    margin-top: 13px;
+}
+
+.time-data__article::before {
+    content: "";
+    width: 14px;
+    height: 16px;
+    display: block;
+    background-image: url("../img/icon-data.svg");
+    background-repeat: no-repeat;
+}
+
+.photo-article {
+    margin-top: 14px;
+}
+
+.article__text {
+    width: 794px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.article-text__bold {
+    font-weight: bold;
+}
+
+.article-text__italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hashteg {
+    width: 790px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #28508E;
+    text-decoration: none;
+}
+
+.hashteg::after {
+    content: "";
+    width: 794px;
+    height: 2px;
+    left: 119px;
+    top: 1481px;
+    display: block;
+    background: #EBEBEB;
+    margin-top: 20px;
+}
+
+.popular-news {
+    width: 386px;
+    height: 542px;
+    background: #F6F6F9;
+    border-radius: 5px;
+}
+
+.news-popular__title {
+    width: 281px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    margin: 16px 86px 6px 20px;
+}
+
+.news-pupular__text {
+    width: 347px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin: 6px 11px 10px 20px;
+}
+
+.time-puplar {
+    width: 117px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    margin: 11px 249px 14px 20px;
+}
+
+.time-puplar::after {
+    content: "";
+    width: 346px;
+    height: 4px;
+    left: 953px;
+    top: 506px;
+    display: inline-block;
+    background: #E4E4E4;
+    margin: 14px 20px;
+}
+
+.article {
+    display: flex;
+}
+
+.news-in-theme__title {
+    width: 170px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.news__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.news-theme__text {
+    width: 380px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin-right: 26px;
+}
+
+.time-news-in-theme {
+    width: 125px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+}
